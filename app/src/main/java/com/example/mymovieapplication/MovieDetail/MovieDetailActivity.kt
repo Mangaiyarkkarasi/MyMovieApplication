@@ -97,9 +97,9 @@ class MovieDetailActivity : AppCompatActivity(), KodeinAware{
                         dataBind.textScorevalue.text=it.ratings[0].value
                         dataBind.textReviewvalue.text=it.metascore
                         dataBind.textPopularityvalue.text=it.imdbvotes
-                        dataBind.textDirector.text="Director:${it.director}"
-                        dataBind.textWriter.text="Writer:${it.writer}"
-                        dataBind.textActors.text="Actor:${it.actors}"
+                        dataBind.textDirector.text="Director: ${it.director}"
+                        dataBind.textWriter.text="Writer: ${it.writer}"
+                        dataBind.textActors.text="Actor: ${it.actors}"
                     }
                 }
                 is State.Error -> {
