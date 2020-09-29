@@ -2,7 +2,7 @@ package com.example.mymovieapplication.util
 
 object AppConstant {
 
-    const val API_KEY = "62e0bdf1"
+    const val API_KEY = "b9bd48a6"
     const val ERROR = "False"
     const val SUCCESS = "True"
     const val INTENT_TITLE = "title"
